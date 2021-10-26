@@ -11,7 +11,18 @@
 
 ## Features
 
-- [] 
+
+- [x] Create server connection;
+- [] Create DB connection;
+- [] Create models;
+- [] Create services;
+- [] Create controllers;
+- [] Create routes;
+- [] Add environment variables;
+- [] create data validations;
+
+
+
 
 ## Tech
 
