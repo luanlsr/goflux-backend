@@ -4,9 +4,9 @@
 
 > Este projeto foi desenvolvido para cadastrar e obter informações de Embarcadores, Transportadores, Ofertas e Lances.
 
-> Os dados recebidos foram armazenados num banco de dados.
+> Os dados recebidos foram armazenados num banco de dados mongoDB.
 
-> Também foi criado uma página para que seja possível visualizar os dados cadastrados.
+> Também foi criado uma página em ReactJS para que seja possível visualizar os dados cadastrados.
 
 
 ## Features
