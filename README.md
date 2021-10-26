@@ -13,7 +13,7 @@
 
 
 - [x] Create server connection;
-- [ ] Create DB connection;
+- [x] Create DB connection;
 - [ ] Create models;
 - [ ] Create services;
 - [ ] Create controllers;
