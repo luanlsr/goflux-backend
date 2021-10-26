@@ -1,12 +1,10 @@
 const { Router } = require('express');
 
-// const { createUser, findAll, findById } = require('../controllers/userController');
-
-// const validateUser = require('../validations/userValidations');
-// const validateJWT = require('../auth/validateJWT');
+const { login } = require('../controllers/controller');
+const validateLogin = require('../validations/validation');
 
 const routes = Router();
 
-routes.post('/user', createUser);
+routes.post('/', validateLogin,login);
 
 module.exports = routes;

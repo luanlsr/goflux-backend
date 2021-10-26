@@ -11,18 +11,15 @@
 
 ## Features
 
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
-
+- [] 
 
 ## Tech
 
-<a style="padding-right:8px;" href="https://nodejs.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/nodejs.png"/> </a>
-<a style="padding-right:8px;" href="https://expressjs.com/pt-br/" target="_blank"> <img style="margin: 10px" src="https://expressjs.com/images/express-facebook-share.png" alt="Express.js" height="30" />  </a> 
-<a style="padding-right:8px;" href="https://www.mongodb.com/" target="_blank"> <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="50" />  </a>
+* NodeJs
+* Express
+* MongoDb
+* Joi
+* cors
 
 
 ## Instalation
