@@ -1,7 +1,7 @@
 const model = require('../models/bidsModel');
 
-const createShippers = async (username, password) => {
-  const created = model.createShippers(username, password)
+const createShippers = async (data) => {
+  const created = model.createShippers(data)
   return created;
 };
 

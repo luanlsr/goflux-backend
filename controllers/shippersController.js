@@ -1,15 +1,15 @@
 const { StatusCodes: { OK, CREATED } } = require('http-status-codes');
+const rescue = require('express-rescue');
 
-const createShippers = async (req, res) => {
-  const { name } = req.body;
-  const result = await service.createShippers({ name });
+const createShippers = rescue(async (req, res) => {
+  const result = await service.createShippers(req.body);
   res.status(CREATED).json(result);
-};
+});
 
-const getShippers = async (req, res) => {
+const getShippers = rescue(async (req, res) => {
   const result = await service.getShippers();
   res.status(OK).json(result);
-};
+});
 
 module.exports = {
   createShippers,

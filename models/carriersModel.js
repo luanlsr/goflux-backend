@@ -1,15 +1,17 @@
 const connect = require('./connection');
 
 
-const createCarriers = async (username, password) =>{
+const createCarriers = async ({name, doc, about, active, site}) =>{
   const db = await connect()
-  const result = await db.collection('shippers').insertOne({ username, password })
-
+  const result = await db.collection('carriers').insertOne({ name, doc, about, active, site })
 
   return {
     _id: result.insertedId,
-    username,
-    password,
+    name: result.name,
+    doc: result.doc, 
+    about: result.about, 
+    active: result.active, 
+    site: result.site
   };
 }
 
